@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+
+    <link rel="icon" type="image/x-icon" href="images/Amaranthe-favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <nav class="main-navbar">
+            <div class="navbar-logo">
+                <a href="index.html"><img src="images/logo.jpg" alt="Logo Amaranthe"></a>
+            </div>
+
+            <div class="navbar-menu">
+                <label for="navbar-menu">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <input type="checkbox" id="navbar-menu">
+                <ul>
+                    <li><a href="index.html">Strona główna</a></li>
+                    <li><a href="gallery.html">Galeria</a></li>
+                    <li primary current><a href="#">Kontakt</a></li>
+                </ul>                
+            </div>
+        </nav>
+
+        <div id="content">
+            <section id="form" class="info-section">
+                <figure>
+                    <img src="images/amaranthe4.jpg">
+                    <figcaption>Kontakt</figcaption>
+                </figure>
+                <article>
+                    <p>
+                        Zapraszamy do kontaktu! Z pewnością rozwiejemy wszelkie Twoje wątpliwości.
+                    </p>
+                </article>
+            </section>
+
+            <section class="info-section image-section">
+                <article>
+                    <div class="columns">
+                        <div class="column x50">
+                            <i class="fas fa-phone"></i>
+                            <p>845-764-7206</p>
+                        </div>
+
+                        <div class="column x50">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Gotoborg, Szwecja</p>
+                        </div>
+
+                        <div class="column x50">
+                            <i class="fas fa-at"></i>
+                            <p>leoni@nuclearblast.de</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            
+
+            <section class="info-section">
+                <article>
+                    <div class="columns">
+                        <div class="column x90">
+                            <h4>Formularz kontaktowy</h4>
+                            <form class="default-form">
+                                <div class="columns">
+                                    <div class="column x49-6">
+                                        <label for="name">Imię*</label>
+                                        <input type="text" id="name" name="name" required>
+                                    </div>
+
+                                    <div class="column x49-6">
+                                        <label for="surname">Nazwisko*</label>
+                                        <input type="text" id="surname" name="surname" required>
+                                    </div>
+
+                                    <div class="column x100">
+                                        <label for="email">Adres email*</label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+
+                                    <div class="column x100">
+                                        <label for="phone">Telefon (format: 123 123 123)</label>
+                                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3} [0-9]{3} [0-9]{3}">
+                                    </div>
+
+                                    <div class="column x100">
+                                        <label for="topic">Temat*</label>
+                                        <select id="topic" name="topic" required>
+                                            <option value="disk">Płyta</option>
+                                            <option value="concert">Koncert</option>
+                                            <option value="autograph">Autograf</option>
+                                            <option value="buisness">Biznes</option>
+                                            <option value="another">Inny</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="column x100">
+                                        <label for="date">Data (jeżeli dotyczy)</label>
+                                        <input type="date" id="date" name="date">
+                                    </div>
+
+                                    <div class="column x100">
+                                        <label for="color">Kolor (jeżeli dotyczy)</label>
+                                        <input type="color" id="color" name="color">
+                                    </div>
+
+                                    <div class="column x100">
+                                        <label for="message">Wiadomość*</label>
+                                        <textarea id="message" name="message" required></textarea>
+                                    </div>
+
+                                    <div class="column x100">
+                                        <input type="submit" value="Wyślij wiadomość">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="column x90">
+                            <h4>Mapa dojazdu</h4>
+                            <iframe class="google-map" src="https://maps.google.com/maps?q=Gotoborg%20Szwecja&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+        <footer class="main-footer">
+            <div class="columns">
+                <div class="column x28">
+                    <h3>O Amaranthe</h3>
+                    <p>
+                        Zespół został założony w 2008 roku w Göteborgu pod nazwą Avalanche przez wokalistę Jake'a E Berga, członka formacji Dreamland oraz gitarzystę Olofa Mörcka, znanego z występów w grupie Dragonland. Muzycy do współpracy zaprosili wokalistę Andy'ego Solveströma, członka deathmetalowej grupy Within Y, wokalistkę Elize Ryd oraz duńskiego perkusistę Mortena Løwe Sørensena, wówczas członka grupy Panzerchrist. W maju 2009 roku zespół został zmuszony do zmiany nazwy na Amaranthe ze względu na kwestie prawne. Także w 2009 roku ukazało się pierwsze demo Amaranthe pt. Leave Everything Behind.
+                    </p>
+                </div>
+
+                <div class="column x20">
+                    <h3>Bądźmy w kontakcie</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/AmarantheBand" target="_blank"><i class="fab fa-facebook"></i> Polub nas na Facebooku</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCuRZjIZcbcdfhixsE1V3E0A" target="_blank"><i class="fab fa-youtube"></i> Zasubskrybuj nas na YouTubie</a></li>
+                        <li><a href="https://www.instagram.com/amarantheofficial/?hl=pl" target="_blank"><i class="fab fa-instagram"></i> Zaobserwuj nas na Instagramie</a></li>
+                    </ul>
+                </div>
+
+                <div class="column x20">
+                    <h3>Podstawowe informacje</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> 845-764-7206</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Gotoborg, Szwecja</li>
+                        <li><i class="fas fa-at"></i> leoni@nuclearblast.de</li>
+                    </ul>
+                </div>
+
+                <div class="column x100">
+                    Amaranthe © 2021 by Dominik Płachta.
+                </div>
+            </div>
+
+        </footer>
+    </div>
+</body>
+</html>
